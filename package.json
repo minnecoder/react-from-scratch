@@ -1,0 +1,32 @@
+{
+  "name": "react-from-scratch",
+  "version": "1.0.0",
+  "description": "This is a built from scratch react application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minnecoder/react-from-scratch.git"
+  },
+  "keywords": [
+    "scratch",
+    "react",
+    "application"
+  ],
+  "author": "Sean Parkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minnecoder/react-from-scratch/issues"
+  },
+  "homepage": "https://github.com/minnecoder/react-from-scratch#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
