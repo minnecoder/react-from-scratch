@@ -1,6 +1,5 @@
 {
 	"extends": ["wesbos"],
-	"pre-commit": ["lint"],
 	"rules": {
 		"react/jsx-filename-extension": 0,
 		"no-console": 2,
