@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './style.css';
-
-const App = () => <div>Hello React,Webpack 4 & Babel 7!</div>;
+import App from './App';
+import './index.css';
 
 ReactDOM.render(<App />, document.querySelector('#root'));
