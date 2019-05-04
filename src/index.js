@@ -1,10 +1,7 @@
 import React from 'react';
-import { render } from 'react-dom';
-if (module.hot) {
-  module.hot.accept();
-}
-const MainApp = () => (
-  <h1>Hello React!</h1>
-);
-// render the app
-render(<MainApp />, document.getElementById('app'));
+import ReactDOM from 'react-dom';
+import "./style.css"
+
+const App = () => <div>Hello React,Webpack 4 & Babel 7!</div>;
+
+ReactDOM.render(<App />, document.querySelector('#root'));
